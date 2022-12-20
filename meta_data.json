@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "data (things)",
+        "2": "internationalization"
+    },
+    "demo_page": "https://tncc-demos.bubbleapps.io/version-test/nodiacritics",
+    "description": "This plugins has one Action (server side) : it removes all the diacritics (accents and special chars) from a string to replace it with its \"normal\" character.\nà --> a\nè, é, ê, ë --> e\nç --> c\nand so on ...\n\nDemo here : https://tncc-demos.bubbleapps.io/version-test/nodiacritics",
+    "image": "//s3.amazonaws.com/appforest_uf/f1669228909114x309359227259449860/Icon.png",
+    "license": "open_source",
+    "link": "https://forum.bubble.io/t/new-plugin-tncc-no-diacritics/233973",
+    "name": "TNCC - No Diacritics",
+    "plugin_instructions": "It exists in two flavors, for performance purpose :\n\n⏺️ Element : No Diacritics.\n1. Drop the element on your page\n2. in your workflow, use the element's Action \"Remove Diacritics\"\n3. get the cleaned text in the Element's event : \"Diacritics removed\" with the \"Cleaned Text\" state containing the text without diacritics.\n\n⏺️ Server-side :\nJust use the Action : \"remove diacritics\" with your text as a parameter. \nThe text without the diacritics is returned a s result of the action.",
+    "sa_node_version": 14
+}

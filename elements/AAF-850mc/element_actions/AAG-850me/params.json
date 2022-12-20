@@ -1,0 +1,15 @@
+{
+    "caption": "Remove Diacritics",
+    "doc": "Use this action to remove the diacritics from the Text action parameter",
+    "fields": {
+        "AAH": {
+            "caption": "Text",
+            "doc": "The text to remove diacritics from",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

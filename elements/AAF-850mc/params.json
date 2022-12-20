@@ -1,0 +1,28 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 32,
+        "width": 32
+    },
+    "display": "No Diacritics",
+    "events": {
+        "AAI": {
+            "caption": "Diacritics removed",
+            "doc": "Triggered once the diacritics are removed",
+            "name": "diacritics_removed"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "states": {
+        "AAJ": {
+            "caption": "Cleaned Text",
+            "doc": "Text with no diacritics",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "cleaned_text",
+            "value": "text"
+        }
+    }
+}

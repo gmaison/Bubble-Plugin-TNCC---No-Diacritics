@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "Remove diacritics",
+    "fields": {
+        "AAD": {
+            "caption": "Text",
+            "doc": "The text from which you want to remove diacritics",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "Simplified Text",
+            "name": "simplified_text",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
